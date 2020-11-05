@@ -1,6 +1,4 @@
-FROM node:10-alpine
-
-LABEL maintainer Vincenzo Chianese, vincenzo@express-gateway.io
+FROM quay.io/ibmz/node:14.14.0
 
 ARG EG_VERSION
 ENV NODE_ENV production
