@@ -36,12 +36,6 @@ The Express Gateway roadmap consists of three parts:
 2. [Roadmap][eg-roadmap] - the published roadmap of all features under considerations and projected timeframes, the highest priority items are put into the...
 3. [Waffle board][eg-waffle] - a real time as a public task board on Waffle.io with backlog of stories for the next release
 
-### LTS Policy
-
-  | Module Version   | Release Date | Minimum EOL | EOL With     | Status  |
-  |------------------|--------------|-------------|--------------|---------|
-  | 1.x.x 	         | Jul 2016	    | Dec 2019    | Node 8       | Current |
-
 #### Contribution
 All contributions welcome! Please see the [contributor's guide][contributor-guide]
 
