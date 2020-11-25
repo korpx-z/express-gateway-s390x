@@ -1,13 +1,3 @@
-#### A Microservices API Gateway Built Using Express.js and Express Middleware
-----
-
-[![npm][npm-version-badge]][npm-package-url]
-[![CircleCI][circleci-badge]][circleci-master-url]
-[![Azure Pipelines][azure-badge]][azure-master-url]
-[![CodeCov][codecov-badge]][codecov-master-url]
-[![Gitter][gitter-badge]][gitter-room-url]
-[![Module LTS Adopted'](https://img.shields.io/badge/Module%20LTS-Adopted-brightgreen.svg?style=flat)](http://github.com/CloudNativeJS/ModuleLTS)
-
 [![Express-Gateway][eg-wordmark-companion]][eg-website]
 
 Express Gateway is a microservices API gateway that sits at the heart of any microservices or serverless architecture, regardless of what language or platform you're using.
@@ -18,9 +8,6 @@ Developing cloud native applications, orchestrating and managing them now can be
 
 ---
 
-### [Website][eg-website] &nbsp; [Getting Started][eg-getting-started] &nbsp; [Docs][eg-docs]
-
----
 #### Main Features
 - Microservices and Serverless QoS Proxy and Security
 - Built Entirely on JavaScript/Node.js using Express and Express Middleware
@@ -31,15 +18,6 @@ Developing cloud native applications, orchestrating and managing them now can be
 - CLI
 - REST API
 - Cloud Native Execution
-
-#### Installation
-If you have Node.js already installed:
-
-```bash
-# install Express Gateway
-$ npm install -g express-gateway
-```
-
 #### Creating a Gateway
 
 ```bash
@@ -51,14 +29,6 @@ $ eg gateway create
 Need help or have a question?
 - [Express Gateway Documentation][eg-docs]
 - [Frequently Asked Questions (FAQ)][eg-faq]
-
-#### Community
-Express has a community that we hope to extend further with Express Gateway's gateway use case for Express and its middleware.
-
-- Come chat with us in [Gitter][gitter-room-url]
-- [Twitter (@express_gateway)][eg-twitter]
-- [Google Group][eg-newsgroup]
-- [Facebook][eg-facebook]
 
 #### Roadmap
 The Express Gateway roadmap consists of three parts:
