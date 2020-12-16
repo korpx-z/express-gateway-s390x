@@ -1,5 +1,11 @@
-[![Express-Gateway][eg-wordmark-companion]][eg-website]
+### This image is built to run on s390x architecture
+-    [build source](https://github.com/korpx-z/express-gateway-s390x/tree/master)
+-    [original source code](https://github.com/ExpressGateway/express-gateway)
 
+### Versions
+1.16.10
+
+##Express Gateway
 Express Gateway is a microservices API gateway that sits at the heart of any microservices or serverless architecture, regardless of what language or platform you're using.
 
 Express Gateway secures your microservices and serverless functions and expose them through APIs using Node.js, Express and Express middleware.
