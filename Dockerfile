@@ -1,4 +1,4 @@
-FROM quay.io/ibmz/node:14.14.0
+FROM quay.io/ibm/node:14.14.0
 
 ARG EG_VERSION
 ENV NODE_ENV production
