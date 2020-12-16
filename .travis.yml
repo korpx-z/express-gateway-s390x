@@ -6,8 +6,8 @@ env:
 #    - TEST_DIR="$PWD/1.15/alpine3.12/test/"
 #    - TEST_SCRIPT="test.sh"
     - BUILD_DIR="$PWD/"
-    - REPO="quay.io/ibmz/express-gateway"
-    - TAG="$REPO:latest"
+    - REPO="quay.io/ibm/express-gateway"
+    - TAG="$REPO:1.16.10"
 before_script: 
   - cd $BUILD_DIR && chmod +x *
 #  - cd $TEST_DIR && chmod +x $TEST_SCRIPT
@@ -16,4 +16,4 @@ script:
   - docker build $BUILD_DIR --tag $TAG
 #  - cd $TEST_DIR && bash $TEST_SCRIPT 
 after_script:
- # - docker push $TAG
+  - docker push $TAG
